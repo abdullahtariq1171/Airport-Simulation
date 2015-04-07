@@ -1,0 +1,43 @@
+Muhammad Abdullah
+Roll # 13-4219
+Compiler: Visual Studio 13 (ULTIMATE)
+DataStructures Semeser Project 
+Air Port Simulation
+
+
+
+
+First of all c++11 random number are used which are truely random so output can vary sometime.
+
+
+Their is a cons LOW_FUEL_LIMIT in myHelperFunctio.h which define the low fuel limit of plane.
+By increasing its value =>
+	1: Less chances of crashing
+	2: Less landing waiting time
+	3: Greater take off waiting time.
+
+
+Crash possibility only left when too many planes came of same dead line fuel arrives (i.e 3) plus we already have some plane in queue of same dead line fuel.
+This fact can only b handled by increasing the low_fuel_limit. Because in that case it does not wait for last time unit and let the plane land well before its dead line time
+But due to this on the other hand the time of take off quque increased.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

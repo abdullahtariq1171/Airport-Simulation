@@ -1,0 +1,814 @@
+AT TIME: 1
+At landing queue: 1 => {  (id=1)  }
+At TakeOff queue: 1 => {  (id=0)  }
+Sizes of H_Pattern(respectively) [1 0 0 0 ] & Top elements of H_Pattern: { (id=1)  EMPTY     EMPTY     EMPTY   }
+Sizes of Take off queues (respectively) [0 0 1 ] & Top elements of take off queue: {  EMPTY     EMPTY    (id=0)}
+Services: [ LN:(ID=1)   IDLE  TO:(ID=0)  ]
+
+
+AT TIME: 2
+At landing queue: 2 => {  (id=3)  (id=5)  }
+At TakeOff queue: 1 => {  (id=2)  }
+Sizes of H_Pattern(respectively) [1 1 0 0 ] & Top elements of H_Pattern: { (id=3) (id=5)  EMPTY     EMPTY   }
+Sizes of Take off queues (respectively) [0 0 1 ] & Top elements of take off queue: {  EMPTY     EMPTY    (id=2)}
+Services: [ LN:(ID=5)   IDLE  TO:(ID=2)  ]
+
+
+AT TIME: 3
+At landing queue: 3 => {  (id=7)  (id=9)  (id=11)  }
+At TakeOff queue: 2 => {  (id=4)  (id=6)  }
+Sizes of H_Pattern(respectively) [1 1 1 1 ] & Top elements of H_Pattern: { (id=3) (id=7) (id=9) (id=11)}
+Sizes of Take off queues (respectively) [0 1 1 ] & Top elements of take off queue: {  EMPTY    (id=6) (id=4)}
+Services: [ LN:(ID=7) LN:(ID=11) TO:(ID=4)  ]
+
+
+AT TIME: 4
+At landing queue: 1 => {  (id=13)  }
+At TakeOff queue: 1 => {  (id=8)  }
+Sizes of H_Pattern(respectively) [1 1 1 0 ] & Top elements of H_Pattern: { (id=3) (id=13) (id=9)  EMPTY   }
+Sizes of Take off queues (respectively) [0 1 1 ] & Top elements of take off queue: {  EMPTY    (id=6) (id=8)}
+Services: [ LN:(ID=13) LN:(ID=9) TO:(ID=8)  ]
+
+
+AT TIME: 5
+At landing queue: 0 => {  }
+At TakeOff queue: 2 => {  (id=10)  (id=12)  }
+Sizes of H_Pattern(respectively) [1 0 0 0 ] & Top elements of H_Pattern: { (id=3)  EMPTY     EMPTY     EMPTY   }
+Sizes of Take off queues (respectively) [1 1 1 ] & Top elements of take off queue: { (id=12) (id=6) (id=10)}
+Services: [ LN:(ID=3) TO:(ID=6) TO:(ID=10)  ]
+
+
+AT TIME: 6
+At landing queue: 1 => {  (id=15)  }
+At TakeOff queue: 0 => {  }
+Sizes of H_Pattern(respectively) [1 0 0 0 ] & Top elements of H_Pattern: { (id=15)  EMPTY     EMPTY     EMPTY   }
+Sizes of Take off queues (respectively) [1 0 0 ] & Top elements of take off queue: { (id=12)  EMPTY     EMPTY   }
+Services: [ LN:(ID=15)   IDLE    IDLE   ]
+
+
+AT TIME: 7
+At landing queue: 0 => {  }
+At TakeOff queue: 0 => {  }
+Sizes of H_Pattern(respectively) [0 0 0 0 ] & Top elements of H_Pattern: {  EMPTY     EMPTY     EMPTY     EMPTY   }
+Sizes of Take off queues (respectively) [1 0 0 ] & Top elements of take off queue: { (id=12)  EMPTY     EMPTY   }
+Services: [ TO:(ID=12)   IDLE    IDLE   ]
+
+
+AT TIME: 8
+At landing queue: 0 => {  }
+At TakeOff queue: 1 => {  (id=14)  }
+Sizes of H_Pattern(respectively) [0 0 0 0 ] & Top elements of H_Pattern: {  EMPTY     EMPTY     EMPTY     EMPTY   }
+Sizes of Take off queues (respectively) [0 0 1 ] & Top elements of take off queue: {  EMPTY     EMPTY    (id=14)}
+Services: [   IDLE    IDLE  TO:(ID=14)  ]
+
+
+AT TIME: 9
+At landing queue: 1 => {  (id=17)  }
+At TakeOff queue: 0 => {  }
+Sizes of H_Pattern(respectively) [1 0 0 0 ] & Top elements of H_Pattern: { (id=17)  EMPTY     EMPTY     EMPTY   }
+Sizes of Take off queues (respectively) [0 0 0 ] & Top elements of take off queue: {  EMPTY     EMPTY     EMPTY   }
+Services: [ LN:(ID=17)   IDLE    IDLE   ]
+
+
+AT TIME: 10
+At landing queue: 1 => {  (id=19)  }
+At TakeOff queue: 2 => {  (id=16)  (id=18)  }
+Sizes of H_Pattern(respectively) [1 0 0 0 ] & Top elements of H_Pattern: { (id=19)  EMPTY     EMPTY     EMPTY   }
+Sizes of Take off queues (respectively) [0 1 1 ] & Top elements of take off queue: {  EMPTY    (id=18) (id=16)}
+Services: [ LN:(ID=19) TO:(ID=18) TO:(ID=16)  ]
+
+
+AT TIME: 11
+At landing queue: 1 => {  (id=21)  }
+At TakeOff queue: 3 => {  (id=20)  (id=22)  (id=24)  }
+Sizes of H_Pattern(respectively) [1 0 0 0 ] & Top elements of H_Pattern: { (id=21)  EMPTY     EMPTY     EMPTY   }
+Sizes of Take off queues (respectively) [1 1 1 ] & Top elements of take off queue: { (id=24) (id=22) (id=20)}
+Services: [ LN:(ID=21) TO:(ID=22) TO:(ID=20)  ]
+
+
+AT TIME: 12
+At landing queue: 1 => {  (id=23)  }
+At TakeOff queue: 1 => {  (id=26)  }
+Sizes of H_Pattern(respectively) [1 0 0 0 ] & Top elements of H_Pattern: { (id=23)  EMPTY     EMPTY     EMPTY   }
+Sizes of Take off queues (respectively) [1 0 1 ] & Top elements of take off queue: { (id=24)  EMPTY    (id=26)}
+Services: [ LN:(ID=23)   IDLE  TO:(ID=26)  ]
+
+
+AT TIME: 13
+At landing queue: 3 => {  (id=25)  (id=27)  (id=29)  }
+At TakeOff queue: 3 => {  (id=28)  (id=30)  (id=32)  }
+Sizes of H_Pattern(respectively) [1 1 1 0 ] & Top elements of H_Pattern: { (id=25) (id=27) (id=29)  EMPTY   }
+Sizes of Take off queues (respectively) [1 1 2 ] & Top elements of take off queue: { (id=24) (id=30) (id=28)}
+Services: [ LN:(ID=27) LN:(ID=29) TO:(ID=28)  ]
+
+
+AT TIME: 14
+At landing queue: 1 => {  (id=31)  }
+At TakeOff queue: 1 => {  (id=34)  }
+Sizes of H_Pattern(respectively) [1 1 0 0 ] & Top elements of H_Pattern: { (id=25) (id=31)  EMPTY     EMPTY   }
+Sizes of Take off queues (respectively) [1 1 2 ] & Top elements of take off queue: { (id=24) (id=30) (id=32)}
+Services: [ LN:(ID=31) TO:(ID=30) TO:(ID=32)  ]
+
+
+AT TIME: 15
+At landing queue: 1 => {  (id=33)  }
+At TakeOff queue: 2 => {  (id=36)  (id=38)  }
+Sizes of H_Pattern(respectively) [1 1 0 0 ] & Top elements of H_Pattern: { (id=25) (id=33)  EMPTY     EMPTY   }
+Sizes of Take off queues (respectively) [1 1 2 ] & Top elements of take off queue: { (id=24) (id=36) (id=34)}
+Services: [ LN:(ID=33) TO:(ID=36) TO:(ID=34)  ]
+
+
+AT TIME: 16
+At landing queue: 1 => {  (id=35)  }
+At TakeOff queue: 2 => {  (id=40)  (id=42)  }
+Sizes of H_Pattern(respectively) [1 1 0 0 ] & Top elements of H_Pattern: { (id=25) (id=35)  EMPTY     EMPTY   }
+Sizes of Take off queues (respectively) [1 1 2 ] & Top elements of take off queue: { (id=24) (id=40) (id=38)}
+Services: [ LN:(ID=35) TO:(ID=40) TO:(ID=38)  ]
+
+
+AT TIME: 17
+At landing queue: 2 => {  (id=37)  (id=39)  }
+At TakeOff queue: 3 => {  (id=44)  (id=46)  (id=48)  }
+Sizes of H_Pattern(respectively) [1 1 1 0 ] & Top elements of H_Pattern: { (id=25) (id=37) (id=39)  EMPTY   }
+Sizes of Take off queues (respectively) [1 2 2 ] & Top elements of take off queue: { (id=24) (id=44) (id=42)}
+Services: [ LN:(ID=37) TO:(ID=44) TO:(ID=42)  ]
+
+
+AT TIME: 18
+At landing queue: 0 => {  }
+At TakeOff queue: 0 => {  }
+Sizes of H_Pattern(respectively) [1 0 1 0 ] & Top elements of H_Pattern: { (id=25)  EMPTY    (id=39)  EMPTY   }
+Sizes of Take off queues (respectively) [1 1 1 ] & Top elements of take off queue: { (id=24) (id=48) (id=46)}
+Services: [ LN:(ID=25) LN:(ID=39) TO:(ID=46)  ]
+
+
+AT TIME: 19
+At landing queue: 0 => {  }
+At TakeOff queue: 3 => {  (id=50)  (id=52)  (id=54)  }
+Sizes of H_Pattern(respectively) [0 0 0 0 ] & Top elements of H_Pattern: {  EMPTY     EMPTY     EMPTY     EMPTY   }
+Sizes of Take off queues (respectively) [1 2 2 ] & Top elements of take off queue: { (id=24) (id=48) (id=50)}
+Services: [ TO:(ID=24) TO:(ID=48) TO:(ID=50)  ]
+
+
+AT TIME: 20
+At landing queue: 3 => {  (id=41)  (id=43)  (id=45)  }
+At TakeOff queue: 1 => {  (id=56)  }
+Sizes of H_Pattern(respectively) [1 1 1 0 ] & Top elements of H_Pattern: { (id=41) (id=43) (id=45)  EMPTY   }
+Sizes of Take off queues (respectively) [1 1 1 ] & Top elements of take off queue: { (id=56) (id=54) (id=52)}
+Services: [ LN:(ID=41) LN:(ID=45) LN:(ID=43)  ]
+
+
+AT TIME: 21
+At landing queue: 2 => {  (id=47)  (id=49)  }
+At TakeOff queue: 0 => {  }
+Sizes of H_Pattern(respectively) [1 1 0 0 ] & Top elements of H_Pattern: { (id=47) (id=49)  EMPTY     EMPTY   }
+Sizes of Take off queues (respectively) [1 1 1 ] & Top elements of take off queue: { (id=56) (id=54) (id=52)}
+Services: [ LN:(ID=49) TO:(ID=54) LN:(ID=47)  ]
+
+
+AT TIME: 22
+At landing queue: 1 => {  (id=51)  }
+At TakeOff queue: 2 => {  (id=58)  (id=60)  }
+Sizes of H_Pattern(respectively) [1 0 0 0 ] & Top elements of H_Pattern: { (id=51)  EMPTY     EMPTY     EMPTY   }
+Sizes of Take off queues (respectively) [1 1 2 ] & Top elements of take off queue: { (id=56) (id=58) (id=52)}
+Services: [ LN:(ID=51) TO:(ID=58) TO:(ID=52)  ]
+
+
+AT TIME: 23
+At landing queue: 1 => {  (id=53)  }
+At TakeOff queue: 3 => {  (id=62)  (id=64)  (id=66)  }
+Sizes of H_Pattern(respectively) [1 0 0 0 ] & Top elements of H_Pattern: { (id=53)  EMPTY     EMPTY     EMPTY   }
+Sizes of Take off queues (respectively) [1 2 2 ] & Top elements of take off queue: { (id=56) (id=62) (id=60)}
+Services: [ LN:(ID=53) TO:(ID=62) TO:(ID=60)  ]
+
+
+AT TIME: 24
+At landing queue: 1 => {  (id=55)  }
+At TakeOff queue: 3 => {  (id=68)  (id=70)  (id=72)  }
+Sizes of H_Pattern(respectively) [1 0 0 0 ] & Top elements of H_Pattern: { (id=55)  EMPTY     EMPTY     EMPTY   }
+Sizes of Take off queues (respectively) [2 2 2 ] & Top elements of take off queue: { (id=56) (id=66) (id=64)}
+Services: [ TO:(ID=56) TO:(ID=66) TO:(ID=64)  ]
+
+
+AT TIME: 25
+At landing queue: 3 => {  (id=57)  (id=59)  (id=61)  }
+At TakeOff queue: 0 => {  }
+Sizes of H_Pattern(respectively) [1 1 1 1 ] & Top elements of H_Pattern: { (id=55) (id=57) (id=59) (id=61)}
+Sizes of Take off queues (respectively) [1 1 1 ] & Top elements of take off queue: { (id=72) (id=70) (id=68)}
+Services: [ LN:(ID=57) LN:(ID=61) TO:(ID=68)  ]
+
+
+AT TIME: 26
+At landing queue: 3 => {  (id=63)  (id=65)  (id=67)  }
+At TakeOff queue: 0 => {  }
+Sizes of H_Pattern(respectively) [2 1 1 1 ] & Top elements of H_Pattern: { (id=67) (id=63) (id=59) (id=65)}
+Sizes of Take off queues (respectively) [1 1 0 ] & Top elements of take off queue: { (id=72) (id=70)  EMPTY   }
+Services: [ LN:(ID=67) LN:(ID=65)   IDLE   ]
+
+
+AT TIME: 27
+At landing queue: 2 => {  (id=69)  (id=71)  }
+At TakeOff queue: 3 => {  (id=74)  (id=76)  (id=78)  }
+Sizes of H_Pattern(respectively) [2 1 1 1 ] & Top elements of H_Pattern: { (id=55) (id=63) (id=59) (id=69)}
+Sizes of Take off queues (respectively) [1 2 2 ] & Top elements of take off queue: { (id=72) (id=70) (id=74)}
+Services: [ LN:(ID=55) LN:(ID=69) TO:(ID=74)  ]
+
+
+AT TIME: 28
+At landing queue: 2 => {  (id=73)  (id=75)  }
+At TakeOff queue: 2 => {  (id=80)  (id=82)  }
+Sizes of H_Pattern(respectively) [2 1 1 1 ] & Top elements of H_Pattern: { (id=75) (id=63) (id=59) (id=73)}
+Sizes of Take off queues (respectively) [2 2 2 ] & Top elements of take off queue: { (id=72) (id=70) (id=76)}
+Services: [ LN:(ID=75) LN:(ID=73) TO:(ID=76)  ]
+
+
+AT TIME: 29
+At landing queue: 3 => {  (id=77)  (id=79)  (id=81)  }
+At TakeOff queue: 1 => {  (id=84)  }
+Sizes of H_Pattern(respectively) [2 2 1 1 ] & Top elements of H_Pattern: { (id=71) (id=63) (id=59) (id=77)}
+Sizes of Take off queues (respectively) [2 2 2 ] & Top elements of take off queue: { (id=72) (id=70) (id=80)}
+Services: [ LN:(ID=63) LN:(ID=77) TO:(ID=80)  ]
+
+
+AT TIME: 30
+At landing queue: 3 => {  (id=83)  (id=85)  (id=87)  }
+At TakeOff queue: 3 => {  (id=86)  (id=88)  (id=90)  }
+Sizes of H_Pattern(respectively) [2 2 2 1 ] & Top elements of H_Pattern: { (id=71) (id=85) (id=87) (id=83)}
+Sizes of Take off queues (respectively) [2 3 3 ] & Top elements of take off queue: { (id=72) (id=70) (id=84)}
+Services: [ LN:(ID=85) LN:(ID=87) TO:(ID=84)  ]
+
+
+AT TIME: 31
+At landing queue: 2 => {  (id=89)  (id=91)  }
+At TakeOff queue: 0 => {  }
+Sizes of H_Pattern(respectively) [2 2 2 1 ] & Top elements of H_Pattern: { (id=71) (id=81) (id=59) (id=83)}
+Sizes of Take off queues (respectively) [2 3 2 ] & Top elements of take off queue: { (id=72) (id=70) (id=86)}
+Services: [ LN:(ID=81) LN:(ID=59) TO:(ID=86)  ]
+
+
+AT TIME: 32
+At landing queue: 3 => {  (id=93)  (id=95)  (id=97)  }
+At TakeOff queue: 0 => {  }
+Sizes of H_Pattern(respectively) [2 2 2 2 ] & Top elements of H_Pattern: { (id=71) (id=89) (id=91) (id=83)}
+Sizes of Take off queues (respectively) [2 3 1 ] & Top elements of take off queue: { (id=72) (id=70) (id=88)}
+Services: [ LN:(ID=89) LN:(ID=83) TO:(ID=88)  ]
+
+
+AT TIME: 33
+At landing queue: 1 => {  (id=99)  }
+At TakeOff queue: 2 => {  (id=92)  (id=94)  }
+Sizes of H_Pattern(respectively) [2 2 2 1 ] & Top elements of H_Pattern: { (id=71) (id=99) (id=91) (id=97)}
+Sizes of Take off queues (respectively) [2 3 2 ] & Top elements of take off queue: { (id=72) (id=70) (id=92)}
+Services: [ LN:(ID=99) LN:(ID=91) TO:(ID=92)  ]
+
+
+AT TIME: 34
+At landing queue: 0 => {  }
+At TakeOff queue: 2 => {  (id=96)  (id=98)  }
+Sizes of H_Pattern(respectively) [2 1 1 1 ] & Top elements of H_Pattern: { (id=71) (id=93) (id=95) (id=97)}
+Sizes of Take off queues (respectively) [2 3 3 ] & Top elements of take off queue: { (id=72) (id=70) (id=94)}
+Services: [ LN:(ID=93) TO:(ID=70) LN:(ID=71)  ]
+
+
+AT TIME: 35
+At landing queue: 1 => {  (id=101)  }
+At TakeOff queue: 3 => {  (id=100)  (id=102)  (id=104)  }
+Sizes of H_Pattern(respectively) [1 1 1 1 ] & Top elements of H_Pattern: { (id=79) (id=101) (id=95) (id=97)}
+Sizes of Take off queues (respectively) [3 3 4 ] & Top elements of take off queue: { (id=72) (id=78) (id=94)}
+Services: [ TO:(ID=72) TO:(ID=78) TO:(ID=94)  ]
+
+
+AT TIME: 36
+At landing queue: 2 => {  (id=103)  (id=105)  }
+At TakeOff queue: 3 => {  (id=106)  (id=108)  (id=110)  }
+Sizes of H_Pattern(respectively) [2 2 1 1 ] & Top elements of H_Pattern: { (id=79) (id=101) (id=95) (id=97)}
+Sizes of Take off queues (respectively) [3 3 4 ] & Top elements of take off queue: { (id=82) (id=90) (id=96)}
+Services: [ LN:(ID=101) TO:(ID=90) TO:(ID=96)  ]
+
+
+AT TIME: 37
+At landing queue: 0 => {  }
+At TakeOff queue: 3 => {  (id=112)  (id=114)  (id=116)  }
+Sizes of H_Pattern(respectively) [2 1 1 1 ] & Top elements of H_Pattern: { (id=79) (id=105) (id=95) (id=97)}
+Sizes of Take off queues (respectively) [3 4 4 ] & Top elements of take off queue: { (id=82) (id=100) (id=98)}
+Services: [ LN:(ID=79) TO:(ID=100) LN:(ID=95)  ]
+
+
+AT TIME: 38
+At landing queue: 0 => {  }
+At TakeOff queue: 0 => {  }
+Sizes of H_Pattern(respectively) [1 1 0 1 ] & Top elements of H_Pattern: { (id=103) (id=105)  EMPTY    (id=97)}
+Sizes of Take off queues (respectively) [3 3 4 ] & Top elements of take off queue: { (id=82) (id=106) (id=98)}
+Services: [ TO:(ID=82) TO:(ID=106) TO:(ID=98)  ]
+
+
+AT TIME: 39
+At landing queue: 0 => {  }
+At TakeOff queue: 0 => {  }
+Sizes of H_Pattern(respectively) [1 1 0 1 ] & Top elements of H_Pattern: { (id=103) (id=105)  EMPTY    (id=97)}
+Sizes of Take off queues (respectively) [2 2 3 ] & Top elements of take off queue: { (id=102) (id=112) (id=104)}
+Services: [ LN:(ID=105) TO:(ID=112) TO:(ID=104)  ]
+
+
+AT TIME: 40
+At landing queue: 0 => {  }
+At TakeOff queue: 2 => {  (id=118)  (id=120)  }
+Sizes of H_Pattern(respectively) [1 0 0 1 ] & Top elements of H_Pattern: { (id=103)  EMPTY     EMPTY    (id=97)}
+Sizes of Take off queues (respectively) [2 2 3 ] & Top elements of take off queue: { (id=102) (id=116) (id=110)}
+Services: [ TO:(ID=102) TO:(ID=116) TO:(ID=110)  ]
+
+
+AT TIME: 41
+At landing queue: 3 => {  (id=107)  (id=109)  (id=111)  }
+At TakeOff queue: 2 => {  (id=122)  (id=124)  }
+Sizes of H_Pattern(respectively) [2 1 1 1 ] & Top elements of H_Pattern: { (id=103) (id=107) (id=109) (id=97)}
+Sizes of Take off queues (respectively) [2 2 2 ] & Top elements of take off queue: { (id=108) (id=118) (id=114)}
+Services: [ LN:(ID=103) LN:(ID=97) TO:(ID=114)  ]
+
+
+AT TIME: 42
+At landing queue: 2 => {  (id=113)  (id=115)  }
+At TakeOff queue: 0 => {  }
+Sizes of H_Pattern(respectively) [2 1 1 1 ] & Top elements of H_Pattern: { (id=115) (id=107) (id=109) (id=113)}
+Sizes of Take off queues (respectively) [2 2 1 ] & Top elements of take off queue: { (id=108) (id=118) (id=120)}
+Services: [ LN:(ID=115) LN:(ID=113) TO:(ID=120)  ]
+
+
+AT TIME: 43
+At landing queue: 2 => {  (id=117)  (id=119)  }
+At TakeOff queue: 0 => {  }
+Sizes of H_Pattern(respectively) [2 1 1 1 ] & Top elements of H_Pattern: { (id=111) (id=107) (id=109) (id=117)}
+Sizes of Take off queues (respectively) [2 2 0 ] & Top elements of take off queue: { (id=108) (id=118)  EMPTY   }
+Services: [ LN:(ID=111) LN:(ID=117)   IDLE   ]
+
+
+AT TIME: 44
+At landing queue: 0 => {  }
+At TakeOff queue: 1 => {  (id=126)  }
+Sizes of H_Pattern(respectively) [1 1 1 0 ] & Top elements of H_Pattern: { (id=119) (id=107) (id=109)  EMPTY   }
+Sizes of Take off queues (respectively) [2 2 1 ] & Top elements of take off queue: { (id=108) (id=118) (id=126)}
+Services: [ LN:(ID=107) TO:(ID=118) TO:(ID=126)  ]
+
+
+AT TIME: 45
+At landing queue: 3 => {  (id=121)  (id=123)  (id=125)  }
+At TakeOff queue: 1 => {  (id=128)  }
+Sizes of H_Pattern(respectively) [2 1 1 1 ] & Top elements of H_Pattern: { (id=125) (id=121) (id=109) (id=123)}
+Sizes of Take off queues (respectively) [2 1 1 ] & Top elements of take off queue: { (id=108) (id=122) (id=128)}
+Services: [ LN:(ID=125) LN:(ID=123) TO:(ID=128)  ]
+
+
+AT TIME: 46
+At landing queue: 3 => {  (id=127)  (id=129)  (id=131)  }
+At TakeOff queue: 0 => {  }
+Sizes of H_Pattern(respectively) [2 2 1 1 ] & Top elements of H_Pattern: { (id=129) (id=121) (id=109) (id=127)}
+Sizes of Take off queues (respectively) [2 1 0 ] & Top elements of take off queue: { (id=108) (id=122)  EMPTY   }
+Services: [ LN:(ID=121) LN:(ID=127) LN:(ID=109)  ]
+
+
+AT TIME: 47
+At landing queue: 1 => {  (id=133)  }
+At TakeOff queue: 2 => {  (id=130)  (id=132)  }
+Sizes of H_Pattern(respectively) [2 1 1 0 ] & Top elements of H_Pattern: { (id=129) (id=131) (id=133)  EMPTY   }
+Sizes of Take off queues (respectively) [2 1 2 ] & Top elements of take off queue: { (id=108) (id=122) (id=130)}
+Services: [ LN:(ID=129) LN:(ID=133) TO:(ID=130)  ]
+
+
+AT TIME: 48
+At landing queue: 1 => {  (id=135)  }
+At TakeOff queue: 0 => {  }
+Sizes of H_Pattern(respectively) [1 1 1 0 ] & Top elements of H_Pattern: { (id=119) (id=131) (id=135)  EMPTY   }
+Sizes of Take off queues (respectively) [2 1 1 ] & Top elements of take off queue: { (id=108) (id=122) (id=132)}
+Services: [ LN:(ID=131) LN:(ID=135) TO:(ID=132)  ]
+
+
+AT TIME: 49
+At landing queue: 1 => {  (id=137)  }
+At TakeOff queue: 3 => {  (id=134)  (id=136)  (id=138)  }
+Sizes of H_Pattern(respectively) [1 1 0 0 ] & Top elements of H_Pattern: { (id=119) (id=137)  EMPTY     EMPTY   }
+Sizes of Take off queues (respectively) [2 2 2 ] & Top elements of take off queue: { (id=108) (id=122) (id=134)}
+Services: [ LN:(ID=137) TO:(ID=122) TO:(ID=134)  ]
+
+
+AT TIME: 50
+At landing queue: 1 => {  (id=139)  }
+At TakeOff queue: 1 => {  (id=140)  }
+Sizes of H_Pattern(respectively) [1 1 0 0 ] & Top elements of H_Pattern: { (id=119) (id=139)  EMPTY     EMPTY   }
+Sizes of Take off queues (respectively) [2 1 2 ] & Top elements of take off queue: { (id=108) (id=138) (id=136)}
+Services: [ LN:(ID=139) TO:(ID=138) TO:(ID=136)  ]
+
+
+AT TIME: 51
+At landing queue: 3 => {  (id=141)  (id=143)  (id=145)  }
+At TakeOff queue: 1 => {  (id=142)  }
+Sizes of H_Pattern(respectively) [1 1 1 1 ] & Top elements of H_Pattern: { (id=119) (id=141) (id=143) (id=145)}
+Sizes of Take off queues (respectively) [2 1 1 ] & Top elements of take off queue: { (id=108) (id=142) (id=140)}
+Services: [ LN:(ID=141) LN:(ID=145) TO:(ID=140)  ]
+
+
+AT TIME: 52
+At landing queue: 1 => {  (id=147)  }
+At TakeOff queue: 0 => {  }
+Sizes of H_Pattern(respectively) [1 1 1 0 ] & Top elements of H_Pattern: { (id=119) (id=147) (id=143)  EMPTY   }
+Sizes of Take off queues (respectively) [2 1 0 ] & Top elements of take off queue: { (id=108) (id=142)  EMPTY   }
+Services: [ LN:(ID=147) LN:(ID=143)   IDLE   ]
+
+
+AT TIME: 53
+At landing queue: 0 => {  }
+At TakeOff queue: 3 => {  (id=144)  (id=146)  (id=148)  }
+Sizes of H_Pattern(respectively) [1 0 0 0 ] & Top elements of H_Pattern: { (id=119)  EMPTY     EMPTY     EMPTY   }
+Sizes of Take off queues (respectively) [2 2 2 ] & Top elements of take off queue: { (id=108) (id=142) (id=144)}
+Services: [ TO:(ID=108) TO:(ID=142) TO:(ID=144)  ]
+
+
+AT TIME: 54
+At landing queue: 3 => {  (id=149)  (id=151)  (id=153)  }
+At TakeOff queue: 1 => {  (id=150)  }
+Sizes of H_Pattern(respectively) [1 1 1 1 ] & Top elements of H_Pattern: { (id=119) (id=149) (id=151) (id=153)}
+Sizes of Take off queues (respectively) [1 1 2 ] & Top elements of take off queue: { (id=124) (id=148) (id=146)}
+Services: [ LN:(ID=149) LN:(ID=153) TO:(ID=146)  ]
+
+
+AT TIME: 55
+At landing queue: 3 => {  (id=155)  (id=157)  (id=159)  }
+At TakeOff queue: 2 => {  (id=152)  (id=154)  }
+Sizes of H_Pattern(respectively) [2 1 1 1 ] & Top elements of H_Pattern: { (id=119) (id=155) (id=151) (id=157)}
+Sizes of Take off queues (respectively) [1 2 2 ] & Top elements of take off queue: { (id=124) (id=148) (id=150)}
+Services: [ LN:(ID=119) LN:(ID=157) TO:(ID=150)  ]
+
+
+AT TIME: 56
+At landing queue: 1 => {  (id=161)  }
+At TakeOff queue: 1 => {  (id=156)  }
+Sizes of H_Pattern(respectively) [1 1 1 1 ] & Top elements of H_Pattern: { (id=159) (id=155) (id=151) (id=161)}
+Sizes of Take off queues (respectively) [1 2 2 ] & Top elements of take off queue: { (id=124) (id=148) (id=152)}
+Services: [ LN:(ID=159) LN:(ID=151) LN:(ID=155)  ]
+
+
+AT TIME: 57
+At landing queue: 1 => {  (id=163)  }
+At TakeOff queue: 2 => {  (id=158)  (id=160)  }
+Sizes of H_Pattern(respectively) [1 0 0 1 ] & Top elements of H_Pattern: { (id=163)  EMPTY     EMPTY    (id=161)}
+Sizes of Take off queues (respectively) [2 2 3 ] & Top elements of take off queue: { (id=124) (id=148) (id=152)}
+Services: [ TO:(ID=124) TO:(ID=148) TO:(ID=152)  ]
+
+
+AT TIME: 58
+At landing queue: 0 => {  }
+At TakeOff queue: 3 => {  (id=162)  (id=164)  (id=166)  }
+Sizes of H_Pattern(respectively) [1 0 0 1 ] & Top elements of H_Pattern: { (id=163)  EMPTY     EMPTY    (id=161)}
+Sizes of Take off queues (respectively) [2 2 3 ] & Top elements of take off queue: { (id=158) (id=154) (id=156)}
+Services: [ TO:(ID=158) TO:(ID=154) TO:(ID=156)  ]
+
+
+AT TIME: 59
+At landing queue: 0 => {  }
+At TakeOff queue: 3 => {  (id=168)  (id=170)  (id=172)  }
+Sizes of H_Pattern(respectively) [1 0 0 1 ] & Top elements of H_Pattern: { (id=163)  EMPTY     EMPTY    (id=161)}
+Sizes of Take off queues (respectively) [2 2 3 ] & Top elements of take off queue: { (id=164) (id=162) (id=160)}
+Services: [ TO:(ID=164) TO:(ID=162) TO:(ID=160)  ]
+
+
+AT TIME: 60
+At landing queue: 1 => {  (id=165)  }
+At TakeOff queue: 3 => {  (id=174)  (id=176)  (id=178)  }
+Sizes of H_Pattern(respectively) [1 1 0 1 ] & Top elements of H_Pattern: { (id=163) (id=165)  EMPTY    (id=161)}
+Sizes of Take off queues (respectively) [2 2 3 ] & Top elements of take off queue: { (id=170) (id=168) (id=166)}
+Services: [ LN:(ID=165) TO:(ID=168) TO:(ID=166)  ]
+
+
+AT TIME: 61
+At landing queue: 2 => {  (id=167)  (id=169)  }
+At TakeOff queue: 0 => {  }
+Sizes of H_Pattern(respectively) [1 1 1 1 ] & Top elements of H_Pattern: { (id=163) (id=167) (id=169) (id=161)}
+Sizes of Take off queues (respectively) [2 1 2 ] & Top elements of take off queue: { (id=170) (id=174) (id=172)}
+Services: [ LN:(ID=167) LN:(ID=161) TO:(ID=172)  ]
+
+
+AT TIME: 62
+At landing queue: 2 => {  (id=171)  (id=173)  }
+At TakeOff queue: 1 => {  (id=180)  }
+Sizes of H_Pattern(respectively) [1 1 1 1 ] & Top elements of H_Pattern: { (id=163) (id=171) (id=169) (id=173)}
+Sizes of Take off queues (respectively) [2 1 2 ] & Top elements of take off queue: { (id=170) (id=174) (id=178)}
+Services: [ LN:(ID=171) LN:(ID=173) TO:(ID=178)  ]
+
+
+AT TIME: 63
+At landing queue: 1 => {  (id=175)  }
+At TakeOff queue: 2 => {  (id=182)  (id=184)  }
+Sizes of H_Pattern(respectively) [1 1 1 0 ] & Top elements of H_Pattern: { (id=163) (id=175) (id=169)  EMPTY   }
+Sizes of Take off queues (respectively) [2 2 2 ] & Top elements of take off queue: { (id=170) (id=174) (id=180)}
+Services: [ LN:(ID=175) TO:(ID=174) TO:(ID=180)  ]
+
+
+AT TIME: 64
+At landing queue: 3 => {  (id=177)  (id=179)  (id=181)  }
+At TakeOff queue: 3 => {  (id=186)  (id=188)  (id=190)  }
+Sizes of H_Pattern(respectively) [2 1 1 1 ] & Top elements of H_Pattern: { (id=163) (id=177) (id=169) (id=179)}
+Sizes of Take off queues (respectively) [2 2 3 ] & Top elements of take off queue: { (id=170) (id=184) (id=182)}
+Services: [ LN:(ID=163) LN:(ID=179) TO:(ID=182)  ]
+
+
+AT TIME: 65
+At landing queue: 1 => {  (id=183)  }
+At TakeOff queue: 3 => {  (id=192)  (id=194)  (id=196)  }
+Sizes of H_Pattern(respectively) [1 1 1 1 ] & Top elements of H_Pattern: { (id=181) (id=177) (id=169) (id=183)}
+Sizes of Take off queues (respectively) [3 3 3 ] & Top elements of take off queue: { (id=170) (id=184) (id=186)}
+Services: [ TO:(ID=170) TO:(ID=184) TO:(ID=186)  ]
+
+
+AT TIME: 66
+At landing queue: 0 => {  }
+At TakeOff queue: 3 => {  (id=198)  (id=200)  (id=202)  }
+Sizes of H_Pattern(respectively) [1 1 1 1 ] & Top elements of H_Pattern: { (id=181) (id=177) (id=169) (id=183)}
+Sizes of Take off queues (respectively) [3 3 3 ] & Top elements of take off queue: { (id=176) (id=188) (id=190)}
+Services: [ TO:(ID=176) TO:(ID=188) LN:(ID=169)  ]
+
+
+AT TIME: 67
+At landing queue: 2 => {  (id=185)  (id=187)  }
+At TakeOff queue: 2 => {  (id=204)  (id=206)  }
+Sizes of H_Pattern(respectively) [2 1 1 1 ] & Top elements of H_Pattern: { (id=187) (id=177) (id=185) (id=183)}
+Sizes of Take off queues (respectively) [3 3 3 ] & Top elements of take off queue: { (id=196) (id=194) (id=190)}
+Services: [ LN:(ID=187) TO:(ID=194) TO:(ID=190)  ]
+
+
+AT TIME: 68
+At landing queue: 3 => {  (id=189)  (id=191)  (id=193)  }
+At TakeOff queue: 3 => {  (id=208)  (id=210)  (id=212)  }
+Sizes of H_Pattern(respectively) [2 2 2 1 ] & Top elements of H_Pattern: { (id=181) (id=177) (id=185) (id=183)}
+Sizes of Take off queues (respectively) [3 3 4 ] & Top elements of take off queue: { (id=196) (id=200) (id=192)}
+Services: [ LN:(ID=177) LN:(ID=185) TO:(ID=192)  ]
+
+
+AT TIME: 69
+At landing queue: 2 => {  (id=195)  (id=197)  }
+At TakeOff queue: 1 => {  (id=214)  }
+Sizes of H_Pattern(respectively) [2 2 2 1 ] & Top elements of H_Pattern: { (id=181) (id=195) (id=197) (id=183)}
+Sizes of Take off queues (respectively) [3 3 4 ] & Top elements of take off queue: { (id=196) (id=200) (id=198)}
+Services: [ LN:(ID=195) LN:(ID=197) TO:(ID=198)  ]
+
+
+AT TIME: 70
+At landing queue: 3 => {  (id=199)  (id=201)  (id=203)  }
+At TakeOff queue: 1 => {  (id=216)  }
+Sizes of H_Pattern(respectively) [2 2 2 2 ] & Top elements of H_Pattern: { (id=181) (id=199) (id=193) (id=183)}
+Sizes of Take off queues (respectively) [3 3 4 ] & Top elements of take off queue: { (id=196) (id=200) (id=208)}
+Services: [ LN:(ID=199) LN:(ID=183) TO:(ID=208)  ]
+
+
+AT TIME: 71
+At landing queue: 0 => {  }
+At TakeOff queue: 1 => {  (id=218)  }
+Sizes of H_Pattern(respectively) [2 1 2 1 ] & Top elements of H_Pattern: { (id=181) (id=191) (id=193) (id=203)}
+Sizes of Take off queues (respectively) [3 3 4 ] & Top elements of take off queue: { (id=196) (id=200) (id=212)}
+Services: [ LN:(ID=181) LN:(ID=193) TO:(ID=212)  ]
+
+
+AT TIME: 72
+At landing queue: 1 => {  (id=205)  }
+At TakeOff queue: 2 => {  (id=220)  (id=222)  }
+Sizes of H_Pattern(respectively) [2 1 1 1 ] & Top elements of H_Pattern: { (id=205) (id=191) (id=201) (id=203)}
+Sizes of Take off queues (respectively) [3 4 4 ] & Top elements of take off queue: { (id=196) (id=200) (id=214)}
+Services: [ LN:(ID=205) TO:(ID=200) TO:(ID=214)  ]
+
+
+AT TIME: 73
+At landing queue: 1 => {  (id=207)  }
+At TakeOff queue: 1 => {  (id=224)  }
+Sizes of H_Pattern(respectively) [2 1 1 1 ] & Top elements of H_Pattern: { (id=207) (id=191) (id=201) (id=203)}
+Sizes of Take off queues (respectively) [3 3 4 ] & Top elements of take off queue: { (id=196) (id=204) (id=216)}
+Services: [ LN:(ID=207) TO:(ID=204) TO:(ID=216)  ]
+
+
+AT TIME: 74
+At landing queue: 2 => {  (id=209)  (id=211)  }
+At TakeOff queue: 2 => {  (id=226)  (id=228)  }
+Sizes of H_Pattern(respectively) [2 2 1 1 ] & Top elements of H_Pattern: { (id=209) (id=211) (id=201) (id=203)}
+Sizes of Take off queues (respectively) [3 3 4 ] & Top elements of take off queue: { (id=196) (id=210) (id=218)}
+Services: [ LN:(ID=211) TO:(ID=210) TO:(ID=218)  ]
+
+
+AT TIME: 75
+At landing queue: 1 => {  (id=213)  }
+At TakeOff queue: 3 => {  (id=230)  (id=232)  (id=234)  }
+Sizes of H_Pattern(respectively) [2 2 1 1 ] & Top elements of H_Pattern: { (id=209) (id=191) (id=201) (id=203)}
+Sizes of Take off queues (respectively) [3 4 4 ] & Top elements of take off queue: { (id=196) (id=222) (id=220)}
+Services: [ LN:(ID=191) TO:(ID=222) TO:(ID=220)  ]
+
+
+AT TIME: 76
+At landing queue: 2 => {  (id=215)  (id=217)  }
+At TakeOff queue: 2 => {  (id=236)  (id=238)  }
+Sizes of H_Pattern(respectively) [2 2 2 1 ] & Top elements of H_Pattern: { (id=209) (id=215) (id=217) (id=203)}
+Sizes of Take off queues (respectively) [3 4 4 ] & Top elements of take off queue: { (id=196) (id=226) (id=224)}
+Services: [ LN:(ID=215) TO:(ID=226) LN:(ID=209)  ]
+
+
+AT TIME: 77
+At landing queue: 0 => {  }
+At TakeOff queue: 3 => {  (id=240)  (id=242)  (id=244)  }
+Sizes of H_Pattern(respectively) [1 1 2 1 ] & Top elements of H_Pattern: { (id=189) (id=213) (id=217) (id=203)}
+Sizes of Take off queues (respectively) [4 4 5 ] & Top elements of take off queue: { (id=196) (id=230) (id=224)}
+Services: [ TO:(ID=196) TO:(ID=230) LN:(ID=189)  ]
+
+
+AT TIME: 78
+At landing queue: 3 => {  (id=219)  (id=221)  (id=223)  }
+At TakeOff queue: 3 => {  (id=246)  (id=248)  (id=250)  }
+Sizes of H_Pattern(respectively) [2 2 2 1 ] & Top elements of H_Pattern: { (id=221) (id=223) (id=217) (id=203)}
+Sizes of Take off queues (respectively) [4 5 5 ] & Top elements of take off queue: { (id=202) (id=234) (id=224)}
+Services: [ LN:(ID=223) TO:(ID=234) TO:(ID=224)  ]
+
+
+AT TIME: 79
+At landing queue: 1 => {  (id=225)  }
+At TakeOff queue: 0 => {  }
+Sizes of H_Pattern(respectively) [2 2 2 1 ] & Top elements of H_Pattern: { (id=221) (id=225) (id=217) (id=203)}
+Sizes of Take off queues (respectively) [4 4 4 ] & Top elements of take off queue: { (id=202) (id=238) (id=228)}
+Services: [ LN:(ID=225) TO:(ID=238) TO:(ID=228)  ]
+
+
+AT TIME: 80
+At landing queue: 2 => {  (id=227)  (id=229)  }
+At TakeOff queue: 0 => {  }
+Sizes of H_Pattern(respectively) [2 2 2 2 ] & Top elements of H_Pattern: { (id=221) (id=227) (id=217) (id=203)}
+Sizes of Take off queues (respectively) [4 3 3 ] & Top elements of take off queue: { (id=202) (id=240) (id=232)}
+Services: [ LN:(ID=227) LN:(ID=203) TO:(ID=232)  ]
+
+
+AT TIME: 81
+At landing queue: 0 => {  }
+At TakeOff queue: 1 => {  (id=252)  }
+Sizes of H_Pattern(respectively) [2 1 2 1 ] & Top elements of H_Pattern: { (id=221) (id=213) (id=217) (id=229)}
+Sizes of Take off queues (respectively) [4 3 3 ] & Top elements of take off queue: { (id=202) (id=240) (id=236)}
+Services: [ TO:(ID=202) TO:(ID=240) LN:(ID=217)  ]
+
+
+AT TIME: 82
+At landing queue: 3 => {  (id=231)  (id=233)  (id=235)  }
+At TakeOff queue: 2 => {  (id=254)  (id=256)  }
+Sizes of H_Pattern(respectively) [2 2 2 2 ] & Top elements of H_Pattern: { (id=221) (id=213) (id=201) (id=229)}
+Sizes of Take off queues (respectively) [3 3 4 ] & Top elements of take off queue: { (id=206) (id=246) (id=236)}
+Services: [ LN:(ID=213) LN:(ID=229) LN:(ID=221)  ]
+
+
+AT TIME: 83
+At landing queue: 2 => {  (id=237)  (id=239)  }
+At TakeOff queue: 0 => {  }
+Sizes of H_Pattern(respectively) [2 2 2 1 ] & Top elements of H_Pattern: { (id=237) (id=239) (id=201) (id=235)}
+Sizes of Take off queues (respectively) [3 3 4 ] & Top elements of take off queue: { (id=206) (id=246) (id=236)}
+Services: [ LN:(ID=239) TO:(ID=246) LN:(ID=201)  ]
+
+
+AT TIME: 84
+At landing queue: 2 => {  (id=241)  (id=243)  }
+At TakeOff queue: 2 => {  (id=258)  (id=260)  }
+Sizes of H_Pattern(respectively) [2 2 2 1 ] & Top elements of H_Pattern: { (id=237) (id=241) (id=233) (id=235)}
+Sizes of Take off queues (respectively) [3 4 4 ] & Top elements of take off queue: { (id=206) (id=250) (id=236)}
+Services: [ LN:(ID=241) TO:(ID=250) TO:(ID=236)  ]
+
+
+AT TIME: 85
+At landing queue: 2 => {  (id=245)  (id=247)  }
+At TakeOff queue: 3 => {  (id=262)  (id=264)  (id=266)  }
+Sizes of H_Pattern(respectively) [2 2 2 2 ] & Top elements of H_Pattern: { (id=237) (id=245) (id=233) (id=235)}
+Sizes of Take off queues (respectively) [4 4 4 ] & Top elements of take off queue: { (id=206) (id=254) (id=244)}
+Services: [ LN:(ID=245) LN:(ID=235) TO:(ID=244)  ]
+
+
+AT TIME: 86
+At landing queue: 0 => {  }
+At TakeOff queue: 3 => {  (id=268)  (id=270)  (id=272)  }
+Sizes of H_Pattern(respectively) [2 1 2 1 ] & Top elements of H_Pattern: { (id=237) (id=231) (id=233) (id=247)}
+Sizes of Take off queues (respectively) [4 5 5 ] & Top elements of take off queue: { (id=206) (id=254) (id=252)}
+Services: [ TO:(ID=206) TO:(ID=254) TO:(ID=252)  ]
+
+
+AT TIME: 87
+At landing queue: 3 => {  (id=249)  (id=251)  (id=253)  }
+At TakeOff queue: 0 => {  }
+Sizes of H_Pattern(respectively) [3 2 2 2 ] & Top elements of H_Pattern: { (id=237) (id=231) (id=233) (id=251)}
+Sizes of Take off queues (respectively) [3 4 4 ] & Top elements of take off queue: { (id=242) (id=258) (id=256)}
+Services: [ LN:(ID=237) LN:(ID=251) TO:(ID=256)  ]
+
+
+AT TIME: 88
+At landing queue: 1 => {  (id=255)  }
+At TakeOff queue: 3 => {  (id=274)  (id=276)  (id=278)  }
+Sizes of H_Pattern(respectively) [2 2 2 2 ] & Top elements of H_Pattern: { (id=219) (id=231) (id=233) (id=255)}
+Sizes of Take off queues (respectively) [4 4 5 ] & Top elements of take off queue: { (id=242) (id=258) (id=262)}
+Services: [ LN:(ID=231) LN:(ID=255) TO:(ID=262)  ]
+
+
+AT TIME: 89
+At landing queue: 0 => {  }
+At TakeOff queue: 0 => {  }
+Sizes of H_Pattern(respectively) [2 1 2 1 ] & Top elements of H_Pattern: { (id=219) (id=249) (id=233) (id=247)}
+Sizes of Take off queues (respectively) [4 4 4 ] & Top elements of take off queue: { (id=242) (id=258) (id=268)}
+Services: [ TO:(ID=242) TO:(ID=258) TO:(ID=268)  ]
+
+
+AT TIME: 90
+At landing queue: 3 => {  (id=257)  (id=259)  (id=261)  }
+At TakeOff queue: 1 => {  (id=280)  }
+Sizes of H_Pattern(respectively) [3 2 2 2 ] & Top elements of H_Pattern: { (id=219) (id=249) (id=233) (id=247)}
+Sizes of Take off queues (respectively) [3 3 4 ] & Top elements of take off queue: { (id=248) (id=260) (id=270)}
+Services: [ LN:(ID=219) LN:(ID=247) TO:(ID=270)  ]
+
+
+AT TIME: 91
+At landing queue: 1 => {  (id=263)  }
+At TakeOff queue: 3 => {  (id=282)  (id=284)  (id=286)  }
+Sizes of H_Pattern(respectively) [2 2 2 2 ] & Top elements of H_Pattern: { (id=253) (id=249) (id=233) (id=263)}
+Sizes of Take off queues (respectively) [4 4 4 ] & Top elements of take off queue: { (id=248) (id=260) (id=274)}
+Services: [ LN:(ID=249) LN:(ID=263) TO:(ID=274)  ]
+
+
+AT TIME: 92
+At landing queue: 2 => {  (id=265)  (id=267)  }
+At TakeOff queue: 1 => {  (id=288)  }
+Sizes of H_Pattern(respectively) [2 2 2 2 ] & Top elements of H_Pattern: { (id=253) (id=265) (id=233) (id=267)}
+Sizes of Take off queues (respectively) [4 4 4 ] & Top elements of take off queue: { (id=248) (id=260) (id=278)}
+Services: [ LN:(ID=265) LN:(ID=267) TO:(ID=278)  ]
+
+
+AT TIME: 93
+At landing queue: 1 => {  (id=269)  }
+At TakeOff queue: 1 => {  (id=290)  }
+Sizes of H_Pattern(respectively) [2 2 2 1 ] & Top elements of H_Pattern: { (id=253) (id=257) (id=233) (id=259)}
+Sizes of Take off queues (respectively) [4 4 4 ] & Top elements of take off queue: { (id=248) (id=260) (id=280)}
+Services: [ LN:(ID=257) TO:(ID=260) TO:(ID=280)  ]
+
+
+AT TIME: 94
+At landing queue: 2 => {  (id=271)  (id=273)  }
+At TakeOff queue: 1 => {  (id=292)  }
+Sizes of H_Pattern(respectively) [2 2 2 2 ] & Top elements of H_Pattern: { (id=253) (id=271) (id=233) (id=259)}
+Sizes of Take off queues (respectively) [4 3 4 ] & Top elements of take off queue: { (id=248) (id=264) (id=282)}
+Services: [ LN:(ID=271) LN:(ID=259) TO:(ID=282)  ]
+
+
+AT TIME: 95
+At landing queue: 3 => {  (id=275)  (id=277)  (id=279)  }
+At TakeOff queue: 3 => {  (id=294)  (id=296)  (id=298)  }
+Sizes of H_Pattern(respectively) [3 2 2 2 ] & Top elements of H_Pattern: { (id=279) (id=269) (id=233) (id=277)}
+Sizes of Take off queues (respectively) [4 4 5 ] & Top elements of take off queue: { (id=248) (id=264) (id=288)}
+Services: [ LN:(ID=279) LN:(ID=277) TO:(ID=288)  ]
+
+
+AT TIME: 96
+At landing queue: 2 => {  (id=281)  (id=283)  }
+At TakeOff queue: 0 => {  }
+Sizes of H_Pattern(respectively) [3 2 2 2 ] & Top elements of H_Pattern: { (id=253) (id=269) (id=233) (id=281)}
+Sizes of Take off queues (respectively) [4 4 4 ] & Top elements of take off queue: { (id=248) (id=264) (id=290)}
+Services: [ LN:(ID=253) TO:(ID=264) LN:(ID=233)  ]
+
+
+AT TIME: 97
+At landing queue: 3 => {  (id=285)  (id=287)  (id=289)  }
+At TakeOff queue: 3 => {  (id=300)  (id=302)  (id=304)  }
+Sizes of H_Pattern(respectively) [3 3 2 2 ] & Top elements of H_Pattern: { (id=261) (id=269) (id=243) (id=281)}
+Sizes of Take off queues (respectively) [4 5 5 ] & Top elements of take off queue: { (id=248) (id=272) (id=290)}
+Services: [ LN:(ID=269) TO:(ID=272) TO:(ID=290)  ]
+
+
+AT TIME: 98
+At landing queue: 1 => {  (id=291)  }
+At TakeOff queue: 2 => {  (id=306)  (id=308)  }
+Sizes of H_Pattern(respectively) [3 3 2 2 ] & Top elements of H_Pattern: { (id=261) (id=291) (id=243) (id=281)}
+Sizes of Take off queues (respectively) [4 5 5 ] & Top elements of take off queue: { (id=248) (id=284) (id=292)}
+Services: [ LN:(ID=291) TO:(ID=284) LN:(ID=243)  ]
+
+
+AT TIME: 99
+At landing queue: 2 => {  (id=293)  (id=295)  }
+At TakeOff queue: 3 => {  (id=310)  (id=312)  (id=314)  }
+Sizes of H_Pattern(respectively) [3 3 2 2 ] & Top elements of H_Pattern: { (id=261) (id=275) (id=285) (id=281)}
+Sizes of Take off queues (respectively) [5 5 6 ] & Top elements of take off queue: { (id=248) (id=296) (id=292)}
+Services: [ LN:(ID=275) TO:(ID=296) LN:(ID=261)  ]
+
+
+AT TIME: 100
+At landing queue: 0 => {  }
+At TakeOff queue: 0 => {  }
+Sizes of H_Pattern(respectively) [2 2 2 2 ] & Top elements of H_Pattern: { (id=287) (id=289) (id=285) (id=281)}
+Sizes of Take off queues (respectively) [5 4 6 ] & Top elements of take off queue: { (id=248) (id=300) (id=292)}
+Services: [ TO:(ID=248) TO:(ID=300) LN:(ID=281)  ]
+
+
+
+
+
+
+Plane Crashed: 0
+Plane Served (crashes excluded): 306
+Average Landing Waiting Time:1.99324
+Average TakeOff Waiting Time:3.14557
+Average Flying Time Remaining on Landing: 5
+Plane Landed With no Fuel Reserve: 0
+
+
+
+
